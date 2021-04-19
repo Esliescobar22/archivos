@@ -1,0 +1,23 @@
+PRINCIPAL()
+{
+Caminar sobre la calle;
+Detenerme en la orilla de la calle;
+Observar el semaforo;
+MOMENTO_DEL_CRUCE()
+Continuar con mi camino
+}
+
+MOMENTO_DEL_CRUCE
+{
+    IF¿Semafor en Rojo?
+    {
+        cruzo sobre el paso peatonal
+    }
+}
+ELSE// Aqui se sabe que el semaforo no esta en rojo//
+{
+    IF¿Semafor en Verde?
+    {
+        Esperar a que cambie a color Rojo
+    }
+}
